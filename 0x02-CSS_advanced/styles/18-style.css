@@ -65,13 +65,13 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-nav {
+.nav {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -80,12 +80,12 @@ nav {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
     padding: calc(var(--font-size-medium) / 2)  var(--font-size-medium);
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
