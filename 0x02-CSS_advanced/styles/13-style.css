@@ -39,6 +39,18 @@ body {
   
 a {
     text-decoration: none;
+    font-style: italic;
+}
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
 }
   
 .visually-hidden {
@@ -71,19 +83,4 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold); 
-}
-a[href]:not([href=""]) {
-    font-style: italic;
-}
-
-a:visited {
-    font-style: italic;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    background-color: var(--color-light-grey);
 }
