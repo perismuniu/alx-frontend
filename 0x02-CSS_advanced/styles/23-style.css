@@ -187,6 +187,14 @@ a:active {
     margin-right: auto;
 }
 
+.social-link {
+    display: block;
+}
+
+.social-link > svg {
+    fill: var(--text-color);
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -203,12 +211,4 @@ a:active {
 
 .footer-address {
     color: var(--text-color);
-}
-
-.social-link {
-    display: block;
-}
-
-.social-link svg {
-    fill: var(--text-color);
 }
