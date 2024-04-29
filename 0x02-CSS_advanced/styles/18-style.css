@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     margin: 0;
     padding: 0;
+    list-style: none;
     text-align: center;
 }
 
@@ -82,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding: calc(var(--font-size-medium) / 2)  var(--font-size-medium);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
